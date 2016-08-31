@@ -1,0 +1,107 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[9pt, a4paper]{awesome-cv}
+
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{cv/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-blue}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Personal Data
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Essentials
+\name{Austin V.}{Songer}
+\address{4641 N Paulina Street, Chicago, IL 60640}
+\mobile{(1) 708-829-9576} 
+%%% Social
+\email{austin@austinsonger.com}
+\homepage{blog.austinvernsonger.com}
+\github{github.com/austinvernsonger}
+%\linkedin{linkedin.com/in/austinvernsonger}
+%%% Optionals
+\position{Trusted Veteran{\enskip\cdotp\enskip}Information Technology{\enskip\cdotp\enskip}Information Security Expert{\enskip\cdotp\enskip}Project Management{\enskip\cdotp\enskip}Junior Software/Web Developer}
+\quote{``Make the change that you want to see in the world."}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Letter Data (Cover Letter)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\recipient
+%  {Company Recruitment Team}
+%  {Google Inc.\\1600 Amphitheatre Parkway\\Mountain View, CA 94043}
+\letterdate{\today}
+\lettertitle{Job Application for Project Manager}
+\letteropening{Dear Human Resources}
+\letterclosing{Sincerely,}
+\letterenclosure[Attached]{Resume, and relevant documents}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Content
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Make a footer for CV with three arguments(<left>, <center>, <right>)
+\makecvfooter
+  {\today}
+  {Austin V. Songer~~~·~~~Cover Letter}
+  {}
+
+\begin{document}
+%%% Make a header for CV using personal data
+\makecvheader
+
+%%% Make a title for Cover Letter using letter data
+\makelettertitle
+
+%%% Write content for your cover letter
+\begin{cvletter}
+\cvparagraph{Why this job?}
+Having spent over eight years managing projects and people in my previous roles, I am hoping to further transition into the project management space. As the Technology and Data Services Coordinator at AAOS, I have served as a primary point of contact for our department Technology and Data Services (TDS). My primary responsibilities have included budget tracking and forecasting, communication facilitation, monitoring vendor relationships and contracts. In this role I have been able to create and implement new standards and processes, as well as monitoring daily project activity and issues through to resolution. Experience from this role that I believe translate to the Project Manager position include the ability to understand user needs, translate those into risks and processes, manage the objective and communicate frequently with the client through implementation and post go-live review. When dealing with organizations or departments, I have been able to effectively adapt my communication and reporting style to each project type and audience. I have consistently displayed skill and comfort in communicating with and requesting assistance from staff members across teams, from to human resources and technical staff members, to C-suite executives. As a manager, my strongest skills include project planning, risk assessment, budget management, status reporting, client delivery, and interpersonal communication.
+
+\cvparagraph{Why Me?}
+I have a desire to invest my skills and experience in project management, helping the American Academy of Orthopedic Surgeons (AAOS) continue to deliver and maintain effective projects and processes for the enterprise. I would embrace the challenge of learning new production systems, and leveraging my experience at the AAOS collaborating across teams to ensure deadlines and deliverables are met. Over the past few years I have regularly and efficiently learned new businesses, system processes, functionality, and requirements within the AAOS.\\
+
+Prior to starting at the AAOS, I worked with the United States Navy in a role managing the work activity of health care personnel. My responsibilities included facilitating communication and meetings between parties, defining and tracking operating standards, and monitoring multiple individuals and projects. I will have earned my master’s degree in Information Systems from Robert Morris University and bachelor’s degree from Eastern Illinois University. In February 2015 I completed the CompTIA Project+ certification, which focuses on managing and completing the project life cycle. In addition to my education, work experience and certification, I have working knowledge across a number of Project Management Systems, Agile Methodologies, and Platforms. I am confident I could provide value to the department, the optimization of the technology project management life cycle, and the organization as a whole. I hope to have the opportunity to further discuss my potential fit in an interview. Thank you for your time and consideration.
+
+\end{cvletter}
+
+%%% Make a closing for Cover Letter using letter data
+\makeletterclosing
+
+\end{document}
