@@ -1,0 +1,116 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[9pt, a4paper]{awesome-cv}
+
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{cv/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-blue}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Personal Data
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Essentials
+\name{Austin V.}{Songer}
+\address{4641 N Paulina Street, Chicago, IL 60640}
+\mobile{(1) 708-829-9576} 
+%%% Social
+\email{austinvernsonger@outlook.com}
+\homepage{blog.austinvernsonger.com}
+\github{austinvernsonger.github.io}
+%\linkedin{linkedin.com/in/austinvernsonger}
+%%% Optionals
+\position{Trusted Veteran{\enskip\cdotp\enskip}Information Technology{\enskip\cdotp\enskip}Information Security Expert{\enskip\cdotp\enskip}Project Management{\enskip\cdotp\enskip}Software/Web Developer}
+\quote{``Make the change that you want to see in the world."}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Letter Data (Cover Letter)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\recipient
+%  {Company Recruitment Team}
+%  {Google Inc.\\1600 Amphitheatre Parkway\\Mountain View, CA 94043}
+\letterdate{\today}
+\lettertitle{Job Application for Senior Front-End Engineer  }
+\letteropening{Dear Human Resources}
+\letterclosing{Sincerely,}
+\letterenclosure[Attached]{Resume, and relevant documents}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Content
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Make a footer for CV with three arguments(<left>, <center>, <right>)
+\makecvfooter
+  {\today}
+  {Austin V. Songer~~~·~~~Cover Letter}
+  {}
+
+\begin{document}
+%%% Make a header for CV using personal data
+\makecvheader
+
+%%% Make a title for Cover Letter using letter data
+\makelettertitle
+
+%%% Write content for your cover letter
+\begin{cvletter}
+
+
+
+
+\cvparagraph{Why Me?}
+I have served as multiple different titles from my time in the United States Navy to my current place of employment at the American Academy of Othropaedic Surgeons. But my passion is with software development/web development and at the moment all of my development work only occurs when I volunteer and/or take on development work on top of my main responsibilities, so I'm seeking a position where I can fully engage myself in software development/web development work. And I'm sure that I would be a great fit at
+%=========Company=========
+TED
+%=========================
+I have excellent client-facing skills, I have participated in proposals and presentations. I also excel in merging business and user needs into high-quality, cost-effective design solutions while keeping within budgetary constraints. 
+
+With a a Master’s degree in Information Systems and technical expertise includes cross-platform proficiency (Windows, Mac OS, Linux and Unix); fluency in multiple scripting/programming languages (including HTML/HTML5, CSS/CSS3, Java, Javascript, Ruby, C# and more); and advanced knowledge of developer applications, tools, methodologies and best practices (including OOD, client/server architecture and self-test automation). I have knowledge lifecycle development of next-generation software, from initial requirement gathering to design, coding, testing, documentation and implementation.
+
+I enjoy being challenged and working on projects that require me to work outside my comfort and knowledge set, as continuing to learn new languages and development techniques are important to me and the success of your organization. My experience would enable me to step into a software engineering/web development role at your organization and hit the ground running.
+
+I’ve attached a copy of my resume that details my projects and experience. I can be reached anytime via my cell phone, 708-829-9576 or via email at austinvernsonger@outlook.com
+
+\end{cvletter}
+
+%%% Make a closing for Cover Letter using letter data
+\makeletterclosing
+
+\end{document}
